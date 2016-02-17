@@ -1,3 +1,7 @@
 open gitshell
 go to ur capstone directory
 git add .
+git commit -m "place your message here, something to help us understand what u did"
+git push
+
+thats it

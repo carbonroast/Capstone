@@ -1,0 +1,11 @@
+How To Pull
+
+2 ways
+
+1- Open Github for windows
+sync
+
+2- Open Gitshell
+Go to ur folder in the directory
+git pull
+
