@@ -1,0 +1,3 @@
+open gitshell
+go to ur capstone directory
+git add .
