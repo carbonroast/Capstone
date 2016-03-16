@@ -5,9 +5,9 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "ece.capstone2016"
-        minSdkVersion 19
-        targetSdkVersion 19
+        applicationId "ece.capstone2016ver2"
+        minSdkVersion 21
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
