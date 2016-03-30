@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ece.capstone2016.PetView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/petview"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"/><!-- From: file:/C:/Users/Nathan/Desktop/Capstone/Capstone2016/app/src/main/res/layout/test.xml -->
