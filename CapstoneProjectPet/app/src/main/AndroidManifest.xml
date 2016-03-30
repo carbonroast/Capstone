@@ -67,6 +67,14 @@
             android:name=".Find"
             android:label="@string/title_activity_find" >
         </activity>
+        <activity
+            android:name=".PersonalityTest"
+            android:label="@string/title_activity_personality_test" >
+        </activity>
+        <activity
+            android:name=".Workout"
+            android:label="@string/title_activity_workout" >
+        </activity>
     </application>
 
 </manifest>

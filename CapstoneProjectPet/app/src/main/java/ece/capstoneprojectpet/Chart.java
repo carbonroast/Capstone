@@ -22,6 +22,7 @@ public class Chart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chart);
 
+
         RadarChart chart = (RadarChart) findViewById(R.id.chart);
 
         ArrayList<Entry> entries = new ArrayList<>();

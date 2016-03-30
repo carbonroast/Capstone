@@ -12,4 +12,6 @@
     <string name="title_activity_host">Host</string>
     <string name="title_activity_connect">Connect</string>
     <string name="title_activity_find">Find</string>
+    <string name="title_activity_personality_test">PersonalityTest</string>
+    <string name="title_activity_workout">Workout</string>
 </resources>
