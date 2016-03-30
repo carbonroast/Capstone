@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Workout extends AppCompatActivity {
+public class Workout extends Pet {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

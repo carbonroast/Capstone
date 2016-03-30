@@ -1,5 +1,7 @@
 package ece.capstoneprojectpet;
 
+
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -17,7 +19,7 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 
-public class Chart extends AppCompatActivity {
+public class Chart extends Pet {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,18 +70,17 @@ public class Chart extends AppCompatActivity {
 
 
 
-        RadarData data = new RadarData(labels, dataSets);
+        RadarData data = new RadarData(labels, dataset_comp1);
         chart.setData(data);
         String description = "Employee-Skill Analysis (scale of 1-10), 10 being the highest";
         chart.setDescription(description);
         chart.setWebLineWidthInner(0.5f);
-        //chart.setDescriptionColor(Color.RED);
+        chart.setDescriptionColor(Color.RED);
 
         //chart.setSkipWebLineCount(10);
         chart.invalidate();
         chart.animate();
-        /*
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        /*Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);*/
 
     }
@@ -104,5 +105,9 @@ public class Chart extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void switchPet(View v) {
+        Intent i = new Intent(getApplicationContext(), Pet.class);
+        startActivity(i);
     }
 }

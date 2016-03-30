@@ -58,12 +58,12 @@ public class Pet extends Activity {
         startActivity(i);
     }
     public void switchDraw(View v) {
-        Intent i = new Intent(getApplicationContext(), Draw.class);
-        startActivity(i);
+        Intent d = new Intent(getApplicationContext(), Draw.class);
+        startActivity(d);
     }
     public void switchChart(View v) {
-        Intent i = new Intent(getApplicationContext(), Chart.class);
-        startActivity(i);
+        Intent c = new Intent(getApplicationContext(), Chart.class);
+        startActivity(c);
     }
 
     public class CustomView extends View implements View.OnTouchListener {

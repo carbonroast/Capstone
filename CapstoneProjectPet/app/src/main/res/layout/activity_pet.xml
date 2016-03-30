@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:text="Stats"
         android:id="@+id/Stats"
-        android:onClick="switchStats"
+        android:onClick="switchChart"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="43dp"
         android:layout_alignParentBottom="true"
