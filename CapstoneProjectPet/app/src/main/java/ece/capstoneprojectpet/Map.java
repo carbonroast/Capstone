@@ -56,6 +56,9 @@ public class Map extends FragmentActivity implements GoogleApiClient.ConnectionC
         mMap.getUiSettings().setCompassEnabled(true);
         mMap.getUiSettings().setMyLocationButtonEnabled(true);
         mMap.getUiSettings().setZoomControlsEnabled(true);
+        if (mMap == null) {
+            return;
+        }
 
         // location request is created to check every 10 seconds, 1second fastest
         locationRequest = LocationRequest.create()
